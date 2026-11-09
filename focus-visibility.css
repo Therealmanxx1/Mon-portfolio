@@ -1,0 +1,16 @@
+.skills-heading h2{font-size:clamp(43px,5.5vw,64px);line-height:1.08}
+.skills-heading>p{max-width:365px;font-size:14px;line-height:1.8;color:#c0bfca}
+.skills-grid .skill-card{min-height:245px;padding:25px 23px;border-color:rgba(255,255,255,.15);background:linear-gradient(145deg,#13141b,#101116)}
+.skills-grid .skill-card h3{font-size:18px;color:#f4f3f8}
+.skills-grid .skill-card>p{max-width:330px;margin-bottom:18px;color:#c0bfca;font-size:13px;line-height:1.8}
+.skills-grid .skill-number{font-size:9px;color:#aeadb9}
+.skills-grid .skill-tags{gap:7px}
+.skills-grid .skill-tags span{padding:6px 9px;border-color:rgba(88,227,206,.27);background:rgba(88,227,206,.055);color:#e3e2e9;font:10px var(--mono);letter-spacing:.02em}
+.skills-grid .skill-feature{border-color:rgba(152,124,255,.38);background:linear-gradient(110deg,rgba(152,124,255,.1),#111218 75%)}
+.contact-content .contact-instruction{margin:0 0 10px;color:var(--teal);font-size:14px;font-weight:700;line-height:1.65}
+.contact-content .contact-actions{gap:12px;margin-top:18px}
+.contact-content .contact-actions .button{min-height:49px;padding-inline:17px;font-size:12px}
+.contact-content .contact-actions .button-quiet{border-color:rgba(88,227,206,.35);background:rgba(88,227,206,.045);color:#f2f1f5}
+.contact-content .contact-actions .button-quiet:hover{background:rgba(88,227,206,.12)}
+@media(max-width:900px){.skills-grid .skill-card{padding:20px 18px;min-height:260px}.skills-grid .skill-card h3{font-size:16px}.skills-grid .skill-card>p{font-size:12px}.skills-grid .skill-tags span{font-size:9px}}
+@media(max-width:640px){.skills-heading h2{font-size:clamp(42px,11vw,56px)}.skills-heading>p{font-size:12px}.skills-grid .skill-card{min-height:235px;padding:17px 15px}.skills-grid .skill-card h3{font-size:14px}.skills-grid .skill-card>p{font-size:11px}.skills-grid .skill-tags{gap:5px}.skills-grid .skill-tags span{font-size:8px;padding:5px 6px}.skills-grid .skill-feature{min-height:205px}.contact-content .contact-instruction{font-size:13px}.contact-content .contact-actions{align-items:stretch}.contact-content .contact-actions .button{width:100%;justify-content:space-between;font-size:12px}}
