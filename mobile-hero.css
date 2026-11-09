@@ -1,0 +1,8 @@
+@media(max-width:640px){
+  .hero-visual{height:auto;min-height:0;margin-top:24px;padding-bottom:5px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:12px;overflow:visible}
+  .portrait-frame{width:min(76%,310px);height:380px;min-height:0;flex:none}
+  .portrait-frame img{object-position:50% 20%}
+  .code-float{display:none}
+  .status-float{position:relative;inset:auto;align-self:center;margin:0;animation:none;transform:none}
+  .visual-index{display:none}
+}

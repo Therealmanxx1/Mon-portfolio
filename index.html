@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="project-gallery.css" />
   <link rel="stylesheet" href="about-section.css" />
   <link rel="stylesheet" href="focus-visibility.css" />
+    <link rel="stylesheet" href="mobile-hero.css" />
   <script src="script.js" defer></script>
 </head>
 
@@ -53,7 +54,7 @@
         <div class="visual-orbit orbit-one"></div>
         <div class="visual-orbit orbit-two"></div>
         <div class="portrait-frame"><img src="assets/portrait-principal.jpeg"
-            alt="Portrait professionnel de l’étudiant MIAGE" />
+            alt="Portrait professionnel de l’étudiant MIAGE" fetchpriority="high" decoding="async" />
           <div class="portrait-shade"></div>
           <div class="portrait-caption"><span class="portrait-label">EN QUELQUES MOTS</span><strong>Curieux par
               nature.<br /><span>Créateur par passion.</span></strong></div>
@@ -121,7 +122,7 @@
         <article class="project-card reveal" data-project="tourisme">
           <div class="project-media media-tourisme has-cover">
             <div class="media-top mono"><span>PROJET 01</span><span>TOURISME · CÔTE D’IVOIRE</span></div>
-            <img class="project-cover" src="assets/site1.png"
+            <img class="project-cover" src="assets/site1.jpg"
               alt="Aperçu de la page d’accueil du site touristique consacré à la Côte d’Ivoire" loading="lazy" />
           </div>
           <div class="project-info">
@@ -133,21 +134,21 @@
             <div class="tag-row"><span>Tourisme ivoirien</span><span>Carte interactive</span><span>Galerie
                 photos</span><span>Hébergements</span></div>
             <div class="gallery gallery-four" aria-label="Captures du site touristique"><a class="gallery-shot"
-                href="assets/site1.png" target="_blank" rel="noreferrer"><img src="assets/site1.png"
+                href="assets/site1.jpg" target="_blank" rel="noreferrer"><img src="assets/site1.jpg"
                   alt="Page d’accueil et carte touristique de la Côte d’Ivoire" loading="lazy" /><span>↗</span></a><a
-                class="gallery-shot" href="assets/site2.png" target="_blank" rel="noreferrer"><img
-                  src="assets/site2.png" alt="Présentation des sites touristiques à Abidjan"
-                  loading="lazy" /><span>↗</span></a><a class="gallery-shot" href="assets/site3.png" target="_blank"
-                rel="noreferrer"><img src="assets/site3.png" alt="Galerie photos des destinations touristiques"
-                  loading="lazy" /><span>↗</span></a><a class="gallery-shot" href="assets/site4.png" target="_blank"
-                rel="noreferrer"><img src="assets/site4.png" alt="Hébergements disponibles à proximité des sites"
+                class="gallery-shot" href="assets/site2.jpg" target="_blank" rel="noreferrer"><img
+                  src="assets/site2.jpg" alt="Présentation des sites touristiques à Abidjan"
+                  loading="lazy" /><span>↗</span></a><a class="gallery-shot" href="assets/site3.jpg" target="_blank"
+                rel="noreferrer"><img src="assets/site3.jpg" alt="Galerie photos des destinations touristiques"
+                  loading="lazy" /><span>↗</span></a><a class="gallery-shot" href="assets/site4.jpg" target="_blank"
+                rel="noreferrer"><img src="assets/site4.jpg" alt="Hébergements disponibles à proximité des sites"
                   loading="lazy" /><span>↗</span></a></div>
           </div>
         </article>
         <article class="project-card project-reverse reveal" data-project="orphelinat">
           <div class="project-media media-solidarity has-cover">
             <div class="media-top mono"><span>PROJET 02</span><span>SITE ASSOCIATIF</span></div>
-            <img class="project-cover" src="assets/monde1.png"
+            <img class="project-cover" src="assets/monde1.jpg"
               alt="Aperçu de la page d’accueil d’ONG Espoir Tiers Monde" loading="lazy" />
           </div>
           <div class="project-info">
@@ -159,19 +160,19 @@
             <div class="tag-row"><span>Site associatif</span><span>Dons</span><span>Partenaires</span><span>Actions
                 sociales</span></div>
             <div class="gallery" aria-label="Captures du site de l’ONG Espoir Tiers Monde"><a class="gallery-shot"
-                href="assets/monde1.png" target="_blank" rel="noreferrer"><img src="assets/monde1.png"
+                href="assets/monde1.jpg" target="_blank" rel="noreferrer"><img src="assets/monde1.jpg"
                   alt="Page d’accueil du site de l’ONG Espoir Tiers Monde" loading="lazy" /><span>↗</span></a><a
-                class="gallery-shot" href="assets/monde2.png" target="_blank" rel="noreferrer"><img
-                  src="assets/monde2.png" alt="Page de dons et méthodes de contribution de l’ONG"
-                  loading="lazy" /><span>↗</span></a><a class="gallery-shot" href="assets/monde3.png" target="_blank"
-                rel="noreferrer"><img src="assets/monde3.png" alt="Section présentant les partenaires de l’ONG"
+                class="gallery-shot" href="assets/monde2.jpg" target="_blank" rel="noreferrer"><img
+                  src="assets/monde2.jpg" alt="Page de dons et méthodes de contribution de l’ONG"
+                  loading="lazy" /><span>↗</span></a><a class="gallery-shot" href="assets/monde3.jpg" target="_blank"
+                rel="noreferrer"><img src="assets/monde3.jpg" alt="Section présentant les partenaires de l’ONG"
                   loading="lazy" /><span>↗</span></a></div>
           </div>
         </article>
         <article class="project-card project-reverse reveal" data-project="elites-informatiques">
           <div class="project-media media-elite has-cover">
             <div class="media-top mono"><span>PROJET 03</span><span>SITE INFORMATIQUE</span></div>
-            <img class="project-cover" src="assets/elite1.png" alt="Aperçu de la page d’accueil d’ELITES INFORMATIQUES"
+            <img class="project-cover" src="assets/elite1.jpg" alt="Aperçu de la page d’accueil d’ELITES INFORMATIQUES"
               loading="lazy" />
           </div>
           <div class="project-info">
@@ -183,16 +184,16 @@
             <div class="tag-row"><span>Génie logiciel</span><span>Formation
                 IT</span><span>Cybersécurité</span><span>Site vitrine</span></div>
             <div class="gallery gallery-four" aria-label="Captures du site ELITES INFORMATIQUES"><a class="gallery-shot"
-                href="assets/elite1.png" target="_blank" rel="noreferrer"><img src="assets/elite1.png"
+                href="assets/elite1.jpg" target="_blank" rel="noreferrer"><img src="assets/elite1.jpg"
                   alt="Accueil d’ELITES INFORMATIQUES et présentation des formations"
-                  loading="lazy" /><span>↗</span></a><a class="gallery-shot" href="assets/elite2.png" target="_blank"
-                rel="noreferrer"><img src="assets/elite2.png"
+                  loading="lazy" /><span>↗</span></a><a class="gallery-shot" href="assets/elite2.jpg" target="_blank"
+                rel="noreferrer"><img src="assets/elite2.jpg"
                   alt="Section de présentation de l’expertise en génie logiciel" loading="lazy" /><span>↗</span></a><a
-                class="gallery-shot" href="assets/elite3.png" target="_blank" rel="noreferrer"><img
-                  src="assets/elite3.png" alt="Présentation des services de cybersécurité"
+                class="gallery-shot" href="assets/elite3.jpg" target="_blank" rel="noreferrer"><img
+                  src="assets/elite3.jpg" alt="Présentation des services de cybersécurité"
                   loading="lazy" /><span>↗</span></a><a class="gallery-shot"
-                href="assets/Capture d'écran 2026-11-09 092751.png" target="_blank" rel="noreferrer"><img
-                  src="assets/Capture d'écran 2026-11-09 092751.png"
+                href="assets/Capture d'écran 2026-11-09 092751.jpg" target="_blank" rel="noreferrer"><img
+                  src="assets/Capture d'écran 2026-11-09 092751.jpg"
                   alt="Section à propos et localisation d’ELITES INFORMATIQUES à Cocody, Abidjan"
                   loading="lazy" /><span>↗</span></a></div>
           </div>
