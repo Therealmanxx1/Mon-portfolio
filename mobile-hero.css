@@ -1,8 +1,106 @@
-@media(max-width:640px){
-  .hero-visual{height:auto;min-height:0;margin-top:24px;padding-bottom:5px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:12px;overflow:visible}
-  .portrait-frame{width:min(76%,310px);height:380px;min-height:0;flex:none}
-  .portrait-frame img{object-position:50% 20%}
-  .code-float{display:none}
-  .status-float{position:relative;inset:auto;align-self:center;margin:0;animation:none;transform:none}
-  .visual-index{display:none}
+/* Keep the ambition card visible while protecting the portrait and caption. */
+.code-float {
+  top: auto;
+  right: -1%;
+  bottom: 13%;
+  width: 190px;
+  max-width: 43%;
+  transform: rotate(2deg);
 }
+
+@media (max-width: 640px) {
+  .hero-visual {
+    height: auto;
+    min-height: 0;
+    margin-top: 24px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    overflow: visible;
+  }
+
+  .portrait-frame {
+    width: min(88%, 340px);
+    height: 380px;
+    min-height: 0;
+    flex: none;
+  }
+
+  .portrait-frame img {
+    object-position: 50% 20%;
+  }
+
+  .portrait-caption {
+    left: 15px;
+    bottom: 20px;
+    max-width: 53%;
+  }
+
+  .code-float {
+    display: block;
+    top: auto;
+    right: 3%;
+    bottom: 72px;
+    width: 150px;
+    max-width: 43%;
+    padding: 11px 12px;
+    transform: rotate(1deg);
+    animation: none;
+  }
+
+  .code-float code {
+    font-size: 8px;
+    line-height: 1.8;
+  }
+
+  .status-float {
+    position: relative;
+    inset: auto;
+    align-self: center;
+    margin: 0;
+    animation: none;
+    transform: none;
+  }
+
+  .visual-index {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .portrait-frame {
+    width: 92%;
+    height: 360px;
+  }
+
+  .portrait-caption {
+    left: 12px;
+    bottom: 16px;
+    max-width: 52%;
+  }
+
+  .portrait-caption strong {
+    font-size: 13px;
+  }
+
+  .code-float {
+    right: 2%;
+    bottom: 65px;
+    width: 132px;
+    padding: 9px 10px;
+  }
+
+  .code-float code {
+    font-size: 7px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .code-float {
+    animation: none;
+  }
+}
+
